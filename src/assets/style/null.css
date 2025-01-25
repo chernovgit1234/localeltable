@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+img {
+    vertical-align: top
+}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: inherit;}
+
+html,body {
+    min-height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1; 
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body {
+  width: 100%;
+  font-size: 100%;
+  line-height: 1; 
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height:100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+
+
+textarea::-webkit-scrollbar {
+  height: 16px;
+  overflow: visible;
+  width: 16px;
+}
+
+textarea::-webkit-scrollbar-button {
+  height: 0;
+  width: 0;
+}
+textarea::-webkit-scrollbar-corner {
+  background: transparent;
+}
+textarea::-webkit-scrollbar-thumb {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 4px;
+  background-color: #dadce0;
+  border-radius: 8px;
+  box-shadow: none;
+}
+textarea::-webkit-scrollbar-track {
+  box-shadow: none;
+  margin: 0 4px;
+}
+textarea::-webkit-scrollbar-track {
+  box-shadow: none;
+  margin: 0 4px;
+  background-clip: padding-box;
+  border: solid transparent;
+  border-width: 0 0 0 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, .2);
+  background-clip: padding-box;
+  border: solid transparent;
+  border-width: 1px 1px 1px 6px;
+  min-height: 28px;
+  padding: 100px 0 0;
+  box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+}
+
+
+

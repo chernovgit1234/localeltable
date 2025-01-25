@@ -1,0 +1,2 @@
+export const brands = ['Hyundai Motors', 'Audi', 'BMW', 'Ferrari', 'Ford', 'General Motors', 'Honda', 'Infiniti', 'Lexus', 'Mazda', 'Mercedes-Benz', 'Nissan', 'Mitsubishi Motors', 'Porsche', 'Subaru','Tata Motors','Toyota','Volkswagen','Volvo']
+export const statuses = ['активный', 'аннулирован', 'возвращен', 'завершен']

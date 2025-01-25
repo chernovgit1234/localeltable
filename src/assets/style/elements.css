@@ -1,0 +1,124 @@
+.input-class-custom {
+    color: #3c4043 !important;
+    font-family: Roboto400 !important;
+}
+
+.btn-custom {
+    border: 1px solid transparent !important;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 14px;
+    height: 36px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    padding: 9px 24px 11px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-family: GoogleSans-Medium;
+}
+.btn-custom:hover {
+    background-color: #3988d7;
+}
+.btn-out-custom {
+    color: var(--primary-color);
+    background-color: #fff;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: GoogleSans-Medium;
+}
+.btn-out-custom:disabled {
+    background-color: #fff;
+}
+.btn-light-custom {
+    color: var(--primary-color);
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    font-weight: 500;
+    font-size: 14px;
+    height: 36px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    padding: 9px 24px 11px;
+    font-family: GoogleSans-Medium;
+    border: 1px solid var(--primary-color);;
+}
+.btn-light-custom:disabled {
+    background-color: #fafafa;
+}
+.btn-light-custom:hover {
+    border: 1px solid #3988d7bd;
+    color: #3988d7bd;
+}
+
+.btn-light-custom-unboard {
+    color: var(--primary-color);
+    background-color: #fff;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+    font-weight: 500;
+    font-family: GoogleSans-Medium;
+    padding: 8px 10px 8px 24px;
+    border-radius: 4px;
+}
+.btn-light-custom-unboard:hover {
+    background-color: #1976d215;
+}
+
+.btn {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px 16px;
+    background-color: var(--primary-color);
+    color: white;
+    letter-spacing: 0.8px;
+}
+.btn:hover {
+    background-color: #3988d7;
+
+}
+.btn-outline {
+    border: 1px solid #000000;
+    padding: 8px 16px;
+    background-color: white;
+    color: #404040;
+    letter-spacing: 0.8px;
+}
+.btn-outline:hover {
+    background-color: rgba(238, 238, 238, 0.696);
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+.tooltip-el {
+    background-color: #898989 !important; 
+}
+.tdHeaderClassByTable {
+    max-width: 20px !important;
+    font-family: Roboto700 !important;
+    font-size: 14px !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+}
+
+.q-table tbody td {
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    max-width: 65px !important; 
+    font-family: Roboto400 !important; 
+}
+
+.hr-custom {
+    background-color: #dddfe3;
+    height: 0.5px;
+}

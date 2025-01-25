@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "allowJs": true,
+    "types": [
+      "webpack-env", "@types/wicg-file-system-access"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "*": ["types/*"]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx",
+    "hyperformula/es/i18n/languages/ruRU",
+ "src/helpers/ReportHelper.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

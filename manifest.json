@@ -1,0 +1,26 @@
+{
+    "name": "create-chrome-ext",
+    "description": "Extract data",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "web_accessible_resources": [
+      {
+        "use_dynamic_url": false
+      },
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "resources": [
+          "**/*",
+          "*"
+        ],
+        "use_dynamic_url": true
+      }
+    ],
+    "permissions": [
+      "activeTab",
+      "tabs",
+      "alarms"
+    ]
+  }

@@ -1,0 +1,93 @@
+{
+  "name": "hanson-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
+    "canvas": "^2.11.2",
+    "chart.js": "^4.4.6",
+    "chartjs-chart-funnel": "^4.2.4",
+    "chartjs-plugin-annotation": "^3.1.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "chevrotain": "^7.0.1",
+    "codemirror-editor-vue3": "^2.8.0",
+    "comlink": "^4.4.1",
+    "core-js": "^3.8.3",
+    "date-fns": "^3.6.0",
+    "diff": "^5.2.0",
+    "fast-formula-parser": "^1.0.19",
+    "handsontable": "^14.6.1",
+    "highlight-words": "^1.2.2",
+    "hotkeys-js": "^3.13.7",
+    "hyperformula": "^2.7.1",
+    "i": "^0.3.7",
+    "insert-text-at-cursor": "^0.3.0",
+    "jspdf": "^2.5.2",
+    "lex": "^1.7.9",
+    "material-icons": "^1.13.12",
+    "npm": "^10.9.0",
+    "print-js": "^1.6.0",
+    "quasar": "^2.16.0",
+    "show-open-file-picker": "^0.2.2",
+    "utf8": "^3.0.0",
+    "v-code-diff": "^1.12.0",
+    "vue": "^3.2.13",
+    "vue-contenteditable": "^4.1.0",
+    "vue-draggable-next": "^2.2.1",
+    "vue-i18n": "^9.13.1",
+    "vue3-draggable-resizable": "^1.6.5",
+    "vuedraggable": "^4.1.0",
+    "vuex": "^4.0.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.4",
+    "@types/wicg-file-system-access": "^2023.10.5",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-typescript": "~5.0.0",
+    "@vue/cli-plugin-vuex": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "@vue/eslint-config-typescript": "^9.1.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "gh-pages": "^6.1.1",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^16.0.0",
+    "typescript": "^4.8.2",
+    "vue-cli-plugin-quasar": "~5.1.0",
+    "worker-loader": "^3.0.8"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/typescript/recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Roboto300";
+    src: url("../fonts/Roboto-Light.woff2") format("woff2");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Roboto400";
+    src: url("../fonts/Roboto-Regular.woff2") format("woff2");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Roboto500";
+    src: url("../fonts/Roboto-Medium.woff2") format("woff2");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Roboto700";
+    src: url("../fonts/Roboto-Medium.woff2") format("woff2");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "GoogleSans-Regular";
+    src: url("../fonts/GoogleSans-Regular.woff2") format("woff2");
+    font-display: block;
+}
+@font-face {
+    font-family: "GoogleSans-Bold";
+    src: url("../fonts/GoogleSans-Bold.woff2") format("woff2");
+    font-display: block;
+}
+@font-face {
+    font-family: "GoogleSans-Medium";
+    src: url("../fonts/GoogleSans-Medium.woff2") format("woff2");
+    font-display: block;
+}
+
+@font-face {
+    font-family: "Arial-Regular";
+    src: url("../fonts/Arial-Regular.woff2") format("woff2");
+    font-display: block;
+}

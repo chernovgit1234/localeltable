@@ -1,0 +1,162 @@
+.left-check {
+    margin-left: -8px;
+}
+.mp-0 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.actions-beetwen-position {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.cursor-p {
+    cursor: pointer  !important;
+    user-select: none !important;
+}
+
+.cursor-carret_none {
+    cursor: pointer;
+    caret-color: transparent;
+}
+
+.icon-wrapper-with-tooltip {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.disabled-element {
+    cursor: default;
+}
+
+.bsr {
+    border: 1px solid red !important;
+}
+.custom-tooltip-menu-test {
+    white-space: nowrap !important;
+    transform: none !important;
+    border-radius: 4px !important;
+    background-color: #f4e2a2 !important;
+    
+    color: #000000 !important;
+    font-family: GoogleSans-Regular !important; 
+    font-size: 12px !important;
+    letter-spacing: .2px !important;
+    padding: 3px 8px !important;
+    height: 25px;
+}
+
+.custom-tooltip-info {
+    box-shadow: 0 2px 6px 2px rgba(60, 64, 67, .15);
+    white-space: nowrap !important;
+    transform: none !important;
+    border-radius: 4px !important;
+    background-color: #ffffff !important;
+    font-family: Roboto400 !important; 
+    padding: 10px 10px 10px 10px !important;
+    width: auto;
+    white-space: pre-line !important;
+    color: #202124 !important;
+    font-size: 14px !important;
+    letter-spacing: .2px !important;
+    line-height: 20px !important;
+}
+.custom-tooltip-menu {
+    white-space: nowrap !important;
+    transform: none !important;
+    border-radius: 4px !important;
+    background-color: #1f1f1f !important;
+    background-color: #707070 !important;
+    
+    color: #f2f2f2 !important;
+    font-family: GoogleSans-Regular !important; 
+    
+    font-size: 12px !important;
+    letter-spacing: .2px !important;
+    padding: 3px 8px !important;
+    height: 25px;
+}
+.custom-tooltip {
+    max-width: 400px;
+    border-radius: 0 !important;
+    color: var(--hs-th-color) !important;
+    background-color: #fff !important;
+    border: 1px solid #e6e6e6 !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px !important;
+}
+
+ .ht_master ::-webkit-scrollbar {
+    height: 16px !important;
+    overflow: visible !important;
+    width: 16px !important;
+}
+
+.ht_master ::-webkit-scrollbar-button {
+    height: 0 !important;
+    width: 0 !important;
+}
+.ht_master ::-webkit-scrollbar-corner {
+    background: transparent !important;
+}
+.ht_master ::-webkit-scrollbar-thumb {
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-width: 4px !important;
+    background-color: #dadce0 !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+.ht_master ::-webkit-scrollbar-track {
+    box-shadow: none !important;
+    margin: 0 4px !important;
+}
+.ht_master ::-webkit-scrollbar-track {
+    background-clip: padding-box !important;
+    border: solid transparent !important;
+    border-width: 0 0 0 4px !important;
+}
+
+
+.scroll-custom::-webkit-scrollbar {
+    height: 16px;
+    overflow: visible;
+    width: 16px;
+}
+
+.scroll-custom::-webkit-scrollbar-button {
+    height: 0;
+    width: 0;
+}
+.scroll-custom::-webkit-scrollbar-corner {
+    background: transparent !important;
+}
+.scroll-custom::-webkit-scrollbar-thumb {
+    border-style: solid !important;
+    border-color: transparent !important;
+    border-width: 4px !important;
+    background-color: #dadce0 !important;
+    border-radius: 8px !important;
+    box-shadow: none !important;
+}
+.scroll-custom::-webkit-scrollbar-track {
+    box-shadow: none !important;
+    margin: 0 4px !important;
+}
+.scroll-custom::-webkit-scrollbar-track {
+    background-clip: padding-box !important;
+    border: solid transparent !important;
+    border-width: 0 0 0 4px !important;
+}
+/* ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .2) !important;
+    background-clip: padding-box !important;
+    border: solid transparent !important;
+    border-width: 1px 1px 1px 6px !important;
+    min-height: 28px !important;
+    padding: 100px 0 0 !important;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+} */

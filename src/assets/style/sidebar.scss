@@ -1,0 +1,60 @@
+.label-section {
+    color: #3c4043;
+    font-family: Roboto700;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.label-small {
+    color: #646464;
+    font-family: Roboto400;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.action-section {
+    &__body {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+}
+
+.inputs-section {
+    margin-top: 8px;
+
+    &__text-type {
+        width: 75%;
+    }
+
+    &__date-type {
+        width: 75%;
+    }
+
+    &__text-number {
+        width: 45%;
+    }
+
+    &__date-numbers {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+}
+
+.actions-icon {
+    position: relative;
+
+    &::before {
+        content: '\002B';
+        font-size: 24px;
+        position: absolute;
+        left: -18px;
+        top: -1px;
+        font-size: 24px;
+    }
+}
